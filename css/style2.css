@@ -86,7 +86,7 @@ html{
 }
 
 .image-main{
-  background-image: url(../img/1661570996_1-celes-club-p-krasivie-mesta-udmurtii-dostoprimechatelno-1.jpg);
+  background-image: url(../IMG/1661570996_1-celes-club-p-krasivie-mesta-udmurtii-dostoprimechatelno-1.jpg);
   height: 30.5rem;
   width: 100%;
   background-position: center;
@@ -200,7 +200,7 @@ html{
 .tours_item_img {
 	height: 15rem;
 	width: 30%;
-	background: url(../img/74_full.jpg);
+	background: url(../IMG/74_full.jpg);
 	background-size: cover;
 	border-radius: 0.8rem;
 	transition: 0.2s ease;
@@ -209,7 +209,7 @@ html{
 .tours_item_img2 {
 	height: 15rem;
 	width: 30%;
-	background: url(../img/tours_itemS.png);
+	background: url(../IMG/tours_itemS.png);
 	background-size: cover;
 	border-radius: 0.8rem;
 	transition: 0.2s ease;
@@ -218,7 +218,7 @@ html{
 .tours_item_img3 {
 	height: 15rem;
 	width: 30%;
-	background: url(../img/3c234b5b833945d7a07a07392534512e-cb55d0ee.jpeg);
+	background: url(../IMG/3c234b5b833945d7a07a07392534512e-cb55d0ee.jpeg);
 	background-size: cover;
 	border-radius: 0.8rem;
 	transition: 0.2s ease;

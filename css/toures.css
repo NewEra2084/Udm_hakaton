@@ -2,6 +2,10 @@ body{
 	margin: 0px;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 .header {
 	padding: 0.5rem 1.5rem;
 	border-bottom: 0.2rem solid black;

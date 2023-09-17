@@ -1,0 +1,436 @@
+body {
+	margin:0;
+	height:1000px;
+}
+
+.header {
+	padding: 0.5rem 1.5rem;
+	border-bottom: 0.2rem solid black;
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top:0;
+	background: white;
+	z-index: 1;
+}
+
+.header_title {
+	display: flex;
+}
+
+.header_img {
+	height:3.5rem;
+	margin: 0 0.6rem 0 0;
+}
+
+.header_text {
+	font-size:1.5rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #f30000;
+	margin: auto 0;
+	transition: 0.1s ease;
+}
+
+.header_text:hover {
+	color: black;
+}
+
+.header_heart {
+	height: 3rem;
+	margin: auto 0.3rem;
+}
+
+a label{
+	cursor: pointer;
+}
+	
+.header_nav {
+	margin: auto 0;
+	display: flex;
+}
+
+.header_nav_link {
+	text-decoration: none;
+}
+
+.header_nav_li {
+	border: 0.1rem solid black;
+	border-radius: 0.3rem;
+	padding: 0.1rem 0.3rem;
+	margin: 0 0.2rem;
+	color: black;
+	transition: 0.1s ease;
+}
+
+.header_nav_li:hover {
+	background:black;
+	color:red;
+}
+
+.header_nav_text {
+	margin-left: -0.6rem;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	transition: 0.1s ease;
+}
+
+.header_nav_li:hover .header_nav_text{
+	color:white;
+}
+
+.cover {
+	margin: 0 0 2rem 0;
+	background: url(../IMG/cover.jpg);
+	background-size: cover;
+	background-position: center;
+	height:10rem;
+	padding: 2rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.coverS{
+	margin: 0 0 2rem 0;
+	background: url(../IMG/coverS.jpg);
+	background-size: cover;
+	background-position: center;
+	height:10rem;
+	padding: 2rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.coverM{
+	margin: 0 0 2rem 0;
+	background: url(../IMG/coverM.jpg);
+	background-size: cover;
+	background-position: center;
+	height:10rem;
+	padding: 2rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.coverV{
+	margin: 0 0 2rem 0;
+	background: url(../IMG/coverV.jpg);
+	background-size: cover;
+	background-position: center;
+	height:10rem;
+	padding: 2rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.coverG{
+	margin: 0 0 2rem 0;
+	background: url(../IMG/coverG.jpg);
+	background-size: cover;
+	background-position: center;
+	height:10rem;
+	padding: 2rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.coverK{
+	margin: 0 0 2rem 0;
+	background: url(../IMG/coverK.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:10rem;
+	padding: 2rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.cover_text {
+	font-size:1.5rem;
+	color: black;
+	text-shadow: 0 0 0.2rem white,0 0 1rem white,0 0 1rem white,0 0 1rem white,0 0 1rem white;
+}
+
+.description {
+	padding: 0 6rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.description_photo {
+	border-radius: 0.5rem;
+	height: 20rem;
+	width: 30rem;
+	background: black;
+	border: 1rem solid #d9d9d9;
+	background: url(../IMG/izh.jpg);
+	background-size: cover;
+	margin-right:2rem;
+}
+
+.description_photoS {
+	border-radius: 0.5rem;
+	height: 20rem;
+	width: 30rem;
+	background: black;
+	border: 1rem solid #d9d9d9;
+	background: url(../IMG/srp.jpg);
+	background-size: cover;
+	margin-right:2rem;
+}
+
+.description_photoM {
+	border-radius: 0.5rem;
+	height: 20rem;
+	width: 30rem;
+	background: black;
+	border: 1rem solid #d9d9d9;
+	background: url(../IMG/msh.jpg);
+	background-size: cover;
+	margin-right:2rem;
+}
+
+.description_photoV {
+	border-radius: 0.5rem;
+	height: 20rem;
+	width: 30rem;
+	background: black;
+	border: 1rem solid #d9d9d9;
+	background: url(../IMG/vot.jpg);
+	background-size: cover;
+	margin-right:2rem;
+}
+
+.description_photoG {
+	border-radius: 0.5rem;
+	height: 20rem;
+	width: 30rem;
+	background: black;
+	border: 1rem solid #d9d9d9;
+	background: url(../IMG/glz.jpg);
+	background-size: cover;
+	margin-right:2rem;
+}
+
+.description_photoK {
+	border-radius: 0.5rem;
+	height: 20rem;
+	width: 30rem;
+	background: black;
+	border: 1rem solid #d9d9d9;
+	background: url(../IMG/kam.jpg);
+	background-size: cover;
+	margin-right:2rem;
+}
+
+.description_text {
+	overflow-x:hidden;
+	border-radius: 0.5rem;
+	overflow-y:auto;
+	height: 20rem;
+	width: 45rem;
+	border: 1rem solid #d9d9d9;
+	background: white;
+}
+
+.description_text_overflow {
+	padding: 0 0.5rem;
+	font-size: 1.26rem;
+	text-align: justify;
+	line-height: 1.5rem;
+}
+.description_text_overflow_text {
+	margin:0.8rem;
+}
+
+.info {
+	margin: 2rem 0;
+	padding: 0 6rem;
+}
+
+.info_conteiner {
+	display: flex;
+}
+
+.info_weather {
+	border-radius: 0.5rem 0 0 0.5rem;
+	border: 1rem solid #d9d9d9;
+	border-right: none;
+}
+
+.info_map {
+	border-radius: 0 0.5rem 0.5rem 0;
+	height:200px;
+	width:70%;
+	border: 1rem solid #d9d9d9;
+}
+
+.tours {
+	padding: 0 6rem;
+	margin: 2rem 0;
+}
+
+.tours_container {
+	border-radius: 0.5rem;
+	background: #d9d9d9;
+	padding: 1rem 6rem 4rem 6rem;
+}
+
+.tours_head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tours_head_text {
+	font-size: 2.5rem;
+	margin: 0;
+	font-weight: bold;
+}
+
+.tours_img {
+	height:4rem;
+}
+
+.tours_form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 3rem 0;
+}
+
+.tours_form_button {
+	font-size: 0.9rem;
+	background: white;
+	border-radius: 0.4rem;
+	border: 0.01rem solid black;
+	padding: 0.4rem 0;
+	font-weight: bold;
+	margin-right: 1rem;
+	cursor: pointer;
+	
+	width:18rem;
+}
+
+.tours_form_search {
+	font-size: 0.9rem;
+	background: white;
+	border-radius: 0.4rem;
+	border: 0.01rem solid black;
+	padding: 0.4rem 0;
+	font-weight: bold;
+	background: url(../IMG/search.png) no-repeat scroll 7px 7px;
+	background-size: contain;
+	background-position:right;
+	background-color:white;
+	text-align: center;
+	
+	width:50rem;
+}
+
+.tours_item {
+	display: flex;
+	background: white;
+	border-radius: 0.8rem;
+	box-shadow: 0.3rem 0.3rem 1rem 0 rgba(0, 0, 0, 0.3);
+	transition: 0.2s ease;
+}
+
+.tours_item:hover {
+	box-shadow: 0 0 0 0, inset 0 0 1rem 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1rem rgba(0,0,0,0.3);
+}
+
+.tours_item_img {
+	height: 15rem;
+	width: 30%;
+	background: url(../IMG/tours_item.png);
+	background-size: cover;
+	border-radius: 0.8rem;
+	transition: 0.2s ease;
+}
+
+.tours_item_imgS {
+	height: 15rem;
+	width: 30%;
+	background: url(../IMG/tours_itemS.png);
+	background-size: cover;
+	border-radius: 0.8rem;
+	transition: 0.2s ease;
+}
+
+.tours_item_imgG {
+	height: 15rem;
+	width: 30%;
+	background: url(../IMG/tours_itemG.jpeg);
+	background-size: cover;
+	border-radius: 0.8rem;
+	transition: 0.2s ease;
+	background-position: bottom;
+}
+
+.tours_item:hover .tours_item_img{
+	box-shadow: inset 0.2rem 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.tours_item_text {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 3rem;
+	width: 70%;
+}
+
+.tours_item_text_left {
+	margin: 0;
+}
+
+.tours_item_text_right {
+	margin-top: 0;
+	text-align: center;
+	line-height: 1.6rem;
+	font-size: 1.2rem;
+}
+
+.tours_item_text_right_text {
+	margin-top: 0;
+	margin-bottom: 0.7rem;
+}
+
+.tours_item_text_left_text {
+	margin: 0.7rem 0 0 0;
+}
+
+.tours_item_text_red {
+	color:red;
+}
+
+.tours_item_text_button {
+	background:black;
+	color:white;
+	padding:0.7rem 1rem;
+	border-radius: 2rem;
+	font-size: 0.9rem;
+	line-height:2.5rem;
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+
+.tours_item_text_button:hover {
+	font-size:1rem;
+}
+
+.tours_none {
+	font-size: 1.3rem;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.footer {
+	border-radius: 0.5rem 0.5rem 0 0;
+	height:100px;
+	background:#d9d9d9;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_text {
+	color: rgba(0,0,0,0.3);
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+

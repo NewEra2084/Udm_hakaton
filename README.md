@@ -1,2 +1,2 @@
-# Udm_hakaton
-First step of hakaton "Open Udmurtia"
+# Udm_hacaton
+Udm_hacaton
